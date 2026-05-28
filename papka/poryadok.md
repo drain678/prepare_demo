@@ -4,7 +4,7 @@
 
 Установить зависимости (django, psycopg2-binary, pillow, при желании uv).
 
-Создать Django-проект (django-admin startproject ...) и приложение (python manage.py startapp core).
+Создать Django-проект (django-admin startproject ...) и приложение (python manage.py startapp core). И создать папки static/css; static/images; core/templates/core; media/
 
 Описать модели (схему БД в Django).
 
