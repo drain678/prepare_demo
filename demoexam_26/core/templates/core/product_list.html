@@ -19,8 +19,7 @@
             <select name="supplier" onchange="this.form.submit()">
                 <option value="all">Все поставщики</option>
                 {% for s in suppliers %}
-                <option value="{{ s.id }}" {% if current_supplier == s.id|stringformat:"i" %}selected{% endif %}>{{ s.name
-                    }}</option>
+                <option value="{{ s.id }}" {% if current_supplier == s.id|stringformat:"s" %}selected{% endif %}>{{ s.name }}</option>
                 {% endfor %}
             </select>
         </div>
