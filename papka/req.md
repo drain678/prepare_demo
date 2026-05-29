@@ -18,6 +18,10 @@ uv.lock — генерируется командой uv lock (и автомат
 ```bash
 uv init
 ```
+когда мы инициализируем uv, то уже создается venvи чтобы его активировать нужно ввести команду:
+```bash
+.\.venv\Scripts\activate.ps1
+```
 ```bash
 uv add django pillow psycopg2-binary
 ```
