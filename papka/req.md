@@ -18,10 +18,6 @@ uv.lock — генерируется командой uv lock (и автомат
 ```bash
 uv init
 ```
-когда мы инициализируем uv, то уже создается venvи чтобы его активировать нужно ввести команду:
-```bash
-.\.venv\Scripts\activate.ps1
-```
 ```bash
 uv add django pillow psycopg2-binary
 ```
@@ -32,6 +28,11 @@ uv lock
 ```bash
 uv sync
 ```
+когда мы создаем uv, то уже создается venvи чтобы его активировать нужно ввести команду:
+```bash
+.\.venv\Scripts\activate.ps1
+```
+
 Что это значит в вашем проекте:
 
 pyproject.toml хранит декларацию проекта и зависимостей (что нужно).
