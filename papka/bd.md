@@ -1,4 +1,11 @@
-Можно подключиться к бд через диьивер, там уже есть соединение и нужно просто создать бд с нужным названием.
+Можно подключиться к бд через дибивер, там уже есть соединение и нужно просто создать бд с нужным названием.
+
+cat hui/core/models.py
+mv hui/core/models.py core/models.py
+copy hui/core/models.py core/models.py
+
+
+pg_dump -U postgres -h localhost -p 54320 -Fp postgres -f idk.sql
 
 
 1. Запуск сервиса PostgreSQL на винде
